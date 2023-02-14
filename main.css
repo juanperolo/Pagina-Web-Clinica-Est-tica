@@ -3,6 +3,13 @@ body {
   background-color: lightblue;
 }
 
+p {
+  font-family: verdana;
+  font-size: 20px;
+  color: white;
+  margin-left: 1em;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -73,4 +80,21 @@ h1 {
   font-size: 40px;
   color: white;
   transform: translate(-50%, -50%);
+}
+
+.fila {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 20px;
+  font-size: 20px;
+  color: white;
+}
+
+.btn {
+  color: white;
+  border: 2px solid black;
+  border-radius: 6px;
+  font-size: 20px;
+  
 }
