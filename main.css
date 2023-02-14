@@ -1,0 +1,76 @@
+
+body {
+  background-color: lightblue;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+.carrusel {
+  width: 100%;
+  height: 500px;
+}
+
+.img2 {
+  float: left;
+  width: 50%;
+  height: 50%;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+
+.introText {
+  font-family: verdana;
+  font-size: 20px;
+  color: white;
+  margin-left: 1em;
+}
+
+.tres {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.pedirCita{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 40px;
+  color: white;
+  transform: translate(-50%, -50%);
+}
